@@ -21,8 +21,8 @@ router.post('/', (req, res) => {
 // @desc    Update contact
 // @access  Private
 
-router.get('/:id', (req, res) => {
-    res.send('Get all contacts');
+router.put('/:id', (req, res) => {
+    res.send('Update contact');
 });
 
 // @route   DELETE api/contacts/:id
